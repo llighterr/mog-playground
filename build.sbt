@@ -18,4 +18,4 @@ lazy val root = (project in file("."))
   )
   .dependsOn(mogFrontend)
 
-lazy val mogFrontend = ProjectRef(uri("git://github.com/mogproject/mog-frontend.git#master"), "root")
+lazy val mogFrontend = ProjectRef(uri("git://github.com/llighterr/mog-frontend.git#master"), "root")
