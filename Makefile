@@ -55,6 +55,9 @@ publish-assets:
 	${REMOVE_MAPPING}
 	${UGLIFY_CSS}
 
+copy-prod:
+	${COPY_PROD}
+
 uglify-css:
 	${UGLIFY_CSS}
 
