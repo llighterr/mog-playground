@@ -55,6 +55,12 @@ publish-assets:
 	${REMOVE_MAPPING}
 	${UGLIFY_CSS}
 
+uglify-css:
+	${UGLIFY_CSS}
+
+remove-mapping:
+	${REMOVE_MAPPING}
+
 merge:
 	git checkout master
 	git pull
